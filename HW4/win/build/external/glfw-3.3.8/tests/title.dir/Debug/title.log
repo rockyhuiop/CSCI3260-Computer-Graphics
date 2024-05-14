@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/tests/CMakeLists.txt
+  title.c
+  glad_gl.c
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\tests\title.c(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  title.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\Debug\title.exe

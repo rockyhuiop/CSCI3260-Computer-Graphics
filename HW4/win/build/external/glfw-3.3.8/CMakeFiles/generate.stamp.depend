@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindDoxygen.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+D:/APPs/CMake-Gui/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMakeLists.txt
+D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/cmake_uninstall.cmake.in
+D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/src/glfw3.pc.in
+D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/src/glfw3Config.cmake.in
+D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/src/glfw_config.h.in

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\tests\tearing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\deps\glad_gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\deps\glad\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ABF0C218-9255-3F66-8528-1E34A389BA73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69802C32-9410-3961-9F14-DD3BE661C2FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

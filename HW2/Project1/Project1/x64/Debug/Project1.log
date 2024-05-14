@@ -1,0 +1,12 @@
+﻿  main.cpp
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(284,73): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(258,12): warning C4101: 'modelTransformMatrix_translate': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(259,12): warning C4101: 'modelTransformMatrix_rotate': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(261,8): warning C4101: 'modelTransformMatrixUniformLocation': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(304,76): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(290,8): warning C4101: 'modelTransformMatrixUniformLocation': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(320,8): warning C4101: 'cameraMatrixUniformLocation': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(319,8): warning C4101: 'projectionMatrixUniformLocation': unreferenced local variable
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(430,14): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\Project1\main.cpp(431,18): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Project1.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW2\Project1\x64\Debug\Project1.exe

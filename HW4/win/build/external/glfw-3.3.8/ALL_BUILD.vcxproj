@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{47A56455-898A-3E0F-9D6E-29FFFD410BD8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/external/glfw-3.3.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindThreads.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\cmake_uninstall.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3.pc.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3Config.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/external/glfw-3.3.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindThreads.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\cmake_uninstall.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3.pc.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3Config.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/external/glfw-3.3.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindThreads.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\cmake_uninstall.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3.pc.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3Config.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/external/glfw-3.3.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindDoxygen.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindThreads.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\cmake_uninstall.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3.pc.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw3Config.cmake.in;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\ZERO_CHECK.vcxproj">
+      <Project>{F84F8563-0089-3487-982F-806960DABB99}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\boing.vcxproj">
+      <Project>{783D9B1D-8358-3233-8B5C-90DC4DDFE53B}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\clipboard.vcxproj">
+      <Project>{7420E24E-4C07-38DE-8E03-059F952A6171}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\cursor.vcxproj">
+      <Project>{7F004B1D-DFA2-3A05-9830-747CC55C00D4}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\empty.vcxproj">
+      <Project>{95966073-26B0-3F64-970F-C73B8F466290}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\events.vcxproj">
+      <Project>{C9246F9E-D06A-3182-9758-A752FF219759}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\gamma.vcxproj">
+      <Project>{9861484D-266E-315D-876E-C2A6E1528A2D}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\gears.vcxproj">
+      <Project>{CA3ADD2F-A0BA-39AE-8628-1F0DB7D6C1A8}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\src\glfw.vcxproj">
+      <Project>{1C4D017D-DF93-3E68-99E9-0E17FAB357E5}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\glfwinfo.vcxproj">
+      <Project>{4559F302-7793-3BCA-97C2-8D9B3E6D2D2B}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\heightmap.vcxproj">
+      <Project>{37A5C045-AA8E-35F1-B37E-91926AF0F8E7}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\icon.vcxproj">
+      <Project>{091ABDDD-E6B5-3422-8964-6469762D387A}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\iconify.vcxproj">
+      <Project>{4C4905E7-DEC2-3E57-9B15-E3C36BBC6E17}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\inputlag.vcxproj">
+      <Project>{203EA5E0-9346-313F-93D5-946BD965476A}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\joysticks.vcxproj">
+      <Project>{1C7B473F-37CC-31DB-8147-94D859B9161E}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\monitors.vcxproj">
+      <Project>{9B07DEFA-8938-32D8-9B1C-DE128D643A19}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\msaa.vcxproj">
+      <Project>{945D2BAF-3CE0-3CE8-A923-ECB93D52A3A9}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\offscreen.vcxproj">
+      <Project>{C66A7762-48DC-3475-9BAC-B6B0331F3379}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\opacity.vcxproj">
+      <Project>{1E4AB1A2-903C-3276-A9D5-90BFE9CDABDA}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\particles.vcxproj">
+      <Project>{A27DB3BE-7343-337E-A0D7-EC497B23B152}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\reopen.vcxproj">
+      <Project>{1C7B0610-C08F-3787-9362-D8CDC6412C4D}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\sharing.vcxproj">
+      <Project>{AAB30FB9-A64F-3089-BA58-04A34D014E8D}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\simple.vcxproj">
+      <Project>{D7CD0CE6-86BB-3E95-BB28-1F99A0F20CE3}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\splitview.vcxproj">
+      <Project>{9BA25218-CDAA-33CA-AA97-1F02F76AACF6}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\tearing.vcxproj">
+      <Project>{36B78E7C-4D3E-33C8-8D18-354221705DD1}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\threads.vcxproj">
+      <Project>{15A76B64-D1FC-3C3C-BC23-DAC7693031D5}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\timeout.vcxproj">
+      <Project>{8CF60CA8-C148-327F-B881-1E0655C897FA}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\title.vcxproj">
+      <Project>{7E341F75-2290-33D4-B45D-7860187C34E7}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\triangle-vulkan.vcxproj">
+      <Project>{E61699D6-D854-391B-A1BA-D661B9282ED3}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\wave.vcxproj">
+      <Project>{764B5C0A-C5D7-3F02-BCCB-17235D7514CB}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\windows.vcxproj">
+      <Project>{C0BDC615-1124-3E65-8BB2-59E177D8BFDB}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/tests/CMakeLists.txt
+  tearing.c
+  glad_gl.c
+  Generating Code...
+  tearing.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\Debug\tearing.exe

@@ -1,0 +1,6 @@
+﻿  bezierCurve.cpp
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierCurve.cpp(174,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierCurve.cpp(216,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  student_code.cpp
+  Generating Code...
+  main.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\Debug\main.exe

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{884BE8D7-DD1C-3A5E-BDE7-BFF4BBED1DF6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>main</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.3.8\src\Debug\glfw3.lib;external\Debug\GLEW_210.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/Debug/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/Debug/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.3.8\src\Release\glfw3.lib;external\Release\GLEW_210.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/Release/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/Release/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.3.8\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_210.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/MinSizeRel/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/MinSizeRel/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glm-0.9.9.8;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glew-2.1.0\include;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\stb_image;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.3.8\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_210.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/RelWithDebInfo/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/RelWithDebInfo/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompilerABI.c;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystem.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompilerABI.c;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystem.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompilerABI.c;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystem.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCCompilerABI.c;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystem.cmake.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\CompilerId\VS-10.vcxproj.in;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\APPs\CMake-Gui\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeCXXCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\main.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\Shader.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierCurve.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierPatch.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\viewer.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\mesh.cpp" />
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\student_code.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\ZERO_CHECK.vcxproj">
+      <Project>{F84F8563-0089-3487-982F-806960DABB99}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\GLEW_210.vcxproj">
+      <Project>{8C60218D-43BB-3F1C-B106-817098F1E347}</Project>
+      <Name>GLEW_210</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\src\glfw.vcxproj">
+      <Project>{1C4D017D-DF93-3E68-99E9-0E17FAB357E5}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/examples/CMakeLists.txt
+  simple.c
+  glad_gl.c
+  Generating Code...
+  simple.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\examples\Debug\simple.exe

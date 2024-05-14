@@ -1,0 +1,10 @@
+^D:\SUPERBULIFE\YEAR3\SEM1\CSCI3260\HW4\WIN\EXTERNAL\GLFW-3.3.8\TESTS\CMAKELISTS.TXT
+setlocal
+D:\APPs\CMake-Gui\bin\cmake.exe -SD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win -BD:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build --check-stamp-file D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/external/glfw-3.3.8/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

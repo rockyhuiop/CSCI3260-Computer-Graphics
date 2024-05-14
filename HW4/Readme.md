@@ -1,0 +1,1 @@
+./hw4 ./bezier3.bzc

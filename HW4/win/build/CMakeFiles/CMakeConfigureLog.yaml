@@ -1,0 +1,396 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 1/12/2023 4:01:28 pm。
+      節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.75
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 1/12/2023 4:01:29 pm。
+      節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.55
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tch871"
+      binary: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tch871"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tch871'
+        
+        Run Build Command(s): D:/APPs/VisualStudioLibrary/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39b77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 1/12/2023 4:01:30 pm。
+        節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tch871\\cmTC_39b77.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_39b77.dir\\Debug\\"。
+          正在建立目錄 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tch871\\Debug\\"。
+          正在建立目錄 "cmTC_39b77.dir\\Debug\\cmTC_39b77.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_39b77.dir\\Debug\\cmTC_39b77.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39b77.dir\\Debug\\\\" /Fd"cmTC_39b77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\APPs\\CMake-Gui\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39b77.dir\\Debug\\\\" /Fd"cmTC_39b77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\APPs\\CMake-Gui\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tch871\\Debug\\cmTC_39b77.exe" /INCREMENTAL /ILK:"cmTC_39b77.dir\\Debug\\cmTC_39b77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tch871/Debug/cmTC_39b77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tch871/Debug/cmTC_39b77.lib" /MACHINE:X64  /machine:x64 cmTC_39b77.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_39b77.vcxproj -> D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tch871\\Debug\\cmTC_39b77.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_39b77.dir\\Debug\\cmTC_39b77.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_39b77.dir\\Debug\\cmTC_39b77.tlog\\cmTC_39b77.lastbuildstate"。
+        專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tch871\\cmTC_39b77.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8p73fg"
+      binary: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8p73fg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8p73fg'
+        
+        Run Build Command(s): D:/APPs/VisualStudioLibrary/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4805d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 1/12/2023 4:01:31 pm。
+        節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8p73fg\\cmTC_4805d.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_4805d.dir\\Debug\\"。
+          正在建立目錄 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8p73fg\\Debug\\"。
+          正在建立目錄 "cmTC_4805d.dir\\Debug\\cmTC_4805d.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_4805d.dir\\Debug\\cmTC_4805d.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4805d.dir\\Debug\\\\" /Fd"cmTC_4805d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\APPs\\CMake-Gui\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4805d.dir\\Debug\\\\" /Fd"cmTC_4805d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\APPs\\CMake-Gui\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8p73fg\\Debug\\cmTC_4805d.exe" /INCREMENTAL /ILK:"cmTC_4805d.dir\\Debug\\cmTC_4805d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8p73fg/Debug/cmTC_4805d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8p73fg/Debug/cmTC_4805d.lib" /MACHINE:X64  /machine:x64 cmTC_4805d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4805d.vcxproj -> D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8p73fg\\Debug\\cmTC_4805d.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_4805d.dir\\Debug\\cmTC_4805d.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_4805d.dir\\Debug\\cmTC_4805d.tlog\\cmTC_4805d.lastbuildstate"。
+        專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8p73fg\\cmTC_4805d.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "external/glfw-3.3.8/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-pxkp5t"
+      binary: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-pxkp5t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-pxkp5t'
+        
+        Run Build Command(s): D:/APPs/VisualStudioLibrary/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f6cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 1/12/2023 4:01:32 pm。
+        節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\cmTC_6f6cc.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_6f6cc.dir\\Debug\\"。
+          正在建立目錄 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\Debug\\"。
+          正在建立目錄 "cmTC_6f6cc.dir\\Debug\\cmTC_6f6cc.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_6f6cc.dir\\Debug\\cmTC_6f6cc.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f6cc.dir\\Debug\\\\" /Fd"cmTC_6f6cc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f6cc.dir\\Debug\\\\" /Fd"cmTC_6f6cc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\src.c"
+        D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\cmTC_6f6cc.vcxproj]
+        專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\cmTC_6f6cc.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\cmTC_6f6cc.vcxproj" (預設目標) (1) ->
+        (ClCompile 目標) -> 
+          D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxkp5t\\cmTC_6f6cc.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "external/glfw-3.3.8/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8gnn3w"
+      binary: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8gnn3w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8gnn3w'
+        
+        Run Build Command(s): D:/APPs/VisualStudioLibrary/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8f40e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 1/12/2023 4:01:32 pm。
+        節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\cmTC_8f40e.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_8f40e.dir\\Debug\\"。
+          正在建立目錄 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\Debug\\"。
+          正在建立目錄 "cmTC_8f40e.dir\\Debug\\cmTC_8f40e.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_8f40e.dir\\Debug\\cmTC_8f40e.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f40e.dir\\Debug\\\\" /Fd"cmTC_8f40e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f40e.dir\\Debug\\\\" /Fd"cmTC_8f40e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\CheckFunctionExists.c"
+        Link:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\Debug\\cmTC_8f40e.exe" /INCREMENTAL /ILK:"cmTC_8f40e.dir\\Debug\\cmTC_8f40e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8gnn3w/Debug/cmTC_8f40e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-8gnn3w/Debug/cmTC_8f40e.lib" /MACHINE:X64  /machine:x64 cmTC_8f40e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\cmTC_8f40e.vcxproj]
+        專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\cmTC_8f40e.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\cmTC_8f40e.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8gnn3w\\cmTC_8f40e.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/APPs/CMake-Gui/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "external/glfw-3.3.8/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tht8mc"
+      binary: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tht8mc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tht8mc'
+        
+        Run Build Command(s): D:/APPs/VisualStudioLibrary/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_46a42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 17.1.0+ae57d105c 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 1/12/2023 4:01:33 pm。
+        節點 1 (預設目標) 上的專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\cmTC_46a42.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_46a42.dir\\Debug\\"。
+          正在建立目錄 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\Debug\\"。
+          正在建立目錄 "cmTC_46a42.dir\\Debug\\cmTC_46a42.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_46a42.dir\\Debug\\cmTC_46a42.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a42.dir\\Debug\\\\" /Fd"cmTC_46a42.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a42.dir\\Debug\\\\" /Fd"cmTC_46a42.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\CheckFunctionExists.c"
+        Link:
+          D:\\APPs\\VisualStudioLibrary\\IDE\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\Debug\\cmTC_46a42.exe" /INCREMENTAL /ILK:"cmTC_46a42.dir\\Debug\\cmTC_46a42.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tht8mc/Debug/cmTC_46a42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/build/CMakeFiles/CMakeScratch/TryCompile-tht8mc/Debug/cmTC_46a42.lib" /MACHINE:X64  /machine:x64 cmTC_46a42.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\cmTC_46a42.vcxproj]
+        專案 "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\cmTC_46a42.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\cmTC_46a42.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\SuperbUlife\\Year3\\Sem1\\CSCI3260\\HW4\\win\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tht8mc\\cmTC_46a42.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.40
+        
+      exitCode: 1
+...

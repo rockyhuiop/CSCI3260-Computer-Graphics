@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/SuperbUlife/Year3/Sem1/CSCI3260/HW4/win/external/glfw-3.3.8/tests/CMakeLists.txt
+D:\APPs\VisualStudioLibrary\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(245,5): warning MSB8065: Custom build for item "D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\external\glfw-3.3.8\tests\CMakeLists.txt" succeeded, but specified output "d:\superbulife\year3\sem1\csci3260\hw4\win\build\external\glfw-3.3.8\tests\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  joysticks.c
+  glad_gl.c
+  Generating Code...
+  joysticks.vcxproj -> D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\build\external\glfw-3.3.8\tests\Debug\joysticks.exe

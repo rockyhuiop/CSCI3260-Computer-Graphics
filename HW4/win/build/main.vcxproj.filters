@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\bezierPatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\student_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SuperbUlife\Year3\Sem1\CSCI3260\HW4\win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{69802C32-9410-3961-9F14-DD3BE661C2FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
